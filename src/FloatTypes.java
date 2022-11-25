@@ -6,7 +6,12 @@ public class FloatTypes {
         int ageGrandMother = 80;
         int ageUncle = 48;
 
-        double avearageAge = (double) (ageMom + ageDad + ageBrother + ageGrandMother + ageUncle) / 5;
-        System.out.println(avearageAge);
+//        double avearageAge = (double) (ageMom + ageDad + ageBrother + ageGrandMother + ageUncle) / 5;
+//        System.out.println(avearageAge);
+        System.out.println("Mom: " + ageMom + "!");
+        System.out.println("Dad: " + ageDad + "!");
+        System.out.println("Brother: " + ageBrother + "!");
+        System.out.println("GrandMother: " + ageGrandMother + "!");
+        System.out.println("Uncle: " + ageUncle + "!");
     }
 }
